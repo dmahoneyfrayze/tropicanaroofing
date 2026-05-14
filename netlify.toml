@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "out"
 
 [build.processing]
   skip_processing = false
@@ -39,20 +40,66 @@
 
 [[redirects]]
   from = "/contact"
-  to = "/free-estimate.html"
+  to = "/free-estimate"
   status = 301
 
 [[redirects]]
   from = "/estimate"
-  to = "/free-estimate.html"
+  to = "/free-estimate"
   status = 301
 
 [[redirects]]
   from = "/emergency"
-  to = "/storm-damage.html"
+  to = "/storm-damage"
   status = 301
 
 [[redirects]]
   from = "/service-areas/*"
-  to = "/scarborough.html"
+  to = "/scarborough"
+  status = 301
+
+# Legacy HTML routes → new clean URLs
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/services.html"
+  to = "/services"
+  status = 301
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+
+[[redirects]]
+  from = "/gallery.html"
+  to = "/gallery"
+  status = 301
+
+[[redirects]]
+  from = "/free-estimate.html"
+  to = "/free-estimate"
+  status = 301
+
+[[redirects]]
+  from = "/storm-damage.html"
+  to = "/storm-damage"
+  status = 301
+
+[[redirects]]
+  from = "/scarborough.html"
+  to = "/scarborough"
+  status = 301
+
+[[redirects]]
+  from = "/asphalt-shingle-roofing.html"
+  to = "/services/asphalt-shingle-roofing"
+  status = 301
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
   status = 301

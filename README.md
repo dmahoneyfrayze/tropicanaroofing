@@ -1,68 +1,34 @@
-# Tropicana Roofing Inc — Marketing Site
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Static marketing site for **Tropicana Roofing Inc**, a Toronto roofing contractor at 215 Markham Road, Toronto, ON M1J 3C4.
+## Getting Started
 
-Built as a static HTML site (TailwindCSS via CDN) for fast Netlify deploys, strong local SEO, and high lead conversion.
-
-## Pages
-
-| URL | Purpose |
-| --- | --- |
-| `/` | Homepage — hero, lead capture, services overview, trust signals |
-| `/services.html` | All roofing services overview |
-| `/asphalt-shingle-roofing.html` | Service detail (template for additional service pages) |
-| `/free-estimate.html` | Primary conversion page — full lead form |
-| `/storm-damage.html` | 24/7 emergency / insurance claim landing |
-| `/scarborough.html` | Local SEO service-area page (template for other neighborhoods) |
-| `/about.html` | Company story, team, certifications |
-| `/gallery.html` | Project portfolio with before/after |
-| `/mobile-preview.html` | Stitch mobile design reference (noindex) |
-| `/404.html` | Custom 404 |
-
-## Local development
-
-It's plain static HTML — open `index.html` directly, or run a tiny server:
+First, run the development server:
 
 ```bash
-python3 -m http.server 8080
-# → http://localhost:8080/
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Deploy
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Netlify
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. Connect this repo at [app.netlify.com](https://app.netlify.com/start).
-2. Build command: *(leave empty)*
-3. Publish directory: `.` (root)
-4. `netlify.toml` handles redirects, headers, asset optimization.
+## Learn More
 
-The site has no build step — Netlify serves the HTML directly.
+To learn more about Next.js, take a look at the following resources:
 
-### Custom domain
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Point `tropicanaroofing.ca` (or whatever domain is registered) at Netlify, then update the `Sitemap:` line in `robots.txt` and the `<loc>` entries in `sitemap.xml` to match.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Design system
+## Deploy on Vercel
 
-Source of truth: the Stitch project at `projects/14855040200623707901`. Brand tokens:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- **Navy** `#0B3A5B` — primary
-- **Orange** `#F26A1F` — accent / CTAs
-- **Trust green** `#1B6E3D` — guarantees / certifications
-- **Montserrat** — headlines
-- **Inter** — body
-- **Radius 8px** — buttons, cards
-
-Tailwind config is inlined at the top of each HTML file (`tailwind.config = { ... }`).
-
-## TODO / future work
-
-- Replace placeholder phone `(416) 555-0198` with the real number across all pages.
-- Wire the lead forms to a backend (Netlify Forms is the simplest — add `data-netlify="true"` and a `name=` attr to each `<form>`).
-- Add additional service-area pages: North York, Etobicoke, East York, Downtown, etc.
-- Add service-detail pages for Metal Roofing, Flat Roofs, Repair, Inspections.
-- Replace Stitch placeholder images with real project photography.
-- Add `LocalBusiness` and `FAQPage` JSON-LD schema to each page for SEO.
-- Add Google Tag Manager / Google Analytics 4.
-- Add a privacy policy and terms of service page (linked from footer).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
