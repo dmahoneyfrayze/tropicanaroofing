@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /mobile-preview.html
+
+Sitemap: https://tropicanaroofing.ca/sitemap.xml

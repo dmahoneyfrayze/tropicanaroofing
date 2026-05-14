@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Page Not Found · Tropicana Roofing Inc</title>
+<meta name="robots" content="noindex" />
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet" />
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: { navy: "#0B3A5B", orange: "#F26A1F", cloud: "#F5F7FA", charcoal: "#1F2937" },
+        fontFamily: { headline: ["Montserrat","sans-serif"], body: ["Inter","sans-serif"] }
+      }
+    }
+  }
+</script>
+</head>
+<body class="font-body text-charcoal bg-cloud min-h-screen flex flex-col">
+<header class="bg-navy text-white py-4">
+  <div class="max-w-5xl mx-auto px-6 flex items-center justify-between">
+    <a href="/" class="font-headline font-extrabold text-xl">Tropicana Roofing</a>
+    <a href="tel:+14165550198" class="font-headline font-bold text-sm hover:text-orange transition-colors">(416) 555-0198</a>
+  </div>
+</header>
+
+<main class="flex-1 flex items-center justify-center px-6 py-20">
+  <div class="max-w-2xl text-center">
+    <p class="font-headline font-bold text-orange tracking-widest text-sm uppercase mb-4">404 · Page Not Found</p>
+    <h1 class="font-headline font-extrabold text-4xl md:text-6xl text-navy leading-tight mb-6">
+      Looks Like This Page Has a Leak.
+    </h1>
+    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+      We can't find the page you're looking for — but we can find your roof. Get a free estimate or browse our services below.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/free-estimate.html" class="bg-orange text-white px-7 py-4 rounded-lg font-headline font-bold hover:shadow-lg transition-all">
+        Get a Free Estimate
+      </a>
+      <a href="/" class="border border-navy text-navy px-7 py-4 rounded-lg font-headline font-bold hover:bg-navy hover:text-white transition-all">
+        Back to Home
+      </a>
+    </div>
+    <div class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+      <a href="/services.html" class="text-navy hover:text-orange font-semibold">Services</a>
+      <a href="/asphalt-shingle-roofing.html" class="text-navy hover:text-orange font-semibold">Asphalt Shingles</a>
+      <a href="/storm-damage.html" class="text-navy hover:text-orange font-semibold">Storm Damage</a>
+      <a href="/gallery.html" class="text-navy hover:text-orange font-semibold">Gallery</a>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-navy text-white/80 py-6 text-center text-sm">
+  &copy; Tropicana Roofing Inc · 215 Markham Road, Toronto, ON M1J 3C4 · (416) 555-0198
+</footer>
+</body>
+</html>

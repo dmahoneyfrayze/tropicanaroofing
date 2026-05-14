@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gallery - Tropicana Roofing Inc</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#0B3A5B',
+                            hover: '#092d47',
+                            light: '#14517c'
+                        },
+                        accent: {
+                            DEFAULT: '#F26A1F',
+                            hover: '#d95a14'
+                        },
+                        trust: '#1B6E3D',
+                        cloud: '#F5F7FA',
+                        surface: '#FFFFFF',
+                        body: '#1F2937',
+                        slate: '#475569'
+                    },
+                    fontFamily: {
+                        headline: ["Montserrat", "sans-serif"],
+                        display: ["Montserrat", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                        label: ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem",
+                        md: "0.5rem",
+                        lg: "0.5rem",
+                        xl: "0.75rem",
+                        "2xl": "1rem",
+                        full: "9999px"
+                    },
+                    boxShadow: {
+                        card: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+                        hover: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                        nav: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)'
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="font-body text-body bg-cloud antialiased pt-20">
+<!-- TopNavBar component -->
+<nav aria-label="Main Navigation" class="bg-white dark:bg-slate-900 fixed top-0 w-full z-50 border-b border-gray-200 dark:border-slate-800 shadow-sm">
+<div class="flex justify-between items-center h-20 px-6 max-w-7xl mx-auto">
+<!-- Brand -->
+<a class="font-headline text-2xl font-extrabold text-[#0B3A5B] dark:text-white tracking-tight flex items-center gap-2" href="#">
+<span class="material-symbols-outlined filled text-accent text-3xl" data-icon="roofing">roofing</span>
+                Tropicana Roofing Inc
+            </a>
+<!-- Desktop Nav Links -->
+<div class="hidden md:flex items-center space-x-8 font-body text-base font-bold">
+<a class="text-[#0B3A5B] dark:text-slate-300 hover:text-[#F26A1F] transition-colors hover:opacity-90" href="/services.html">Services</a>
+<a aria-current="page" class="text-[#F26A1F] font-bold border-b-2 border-[#F26A1F] pb-1 hover:opacity-90 transition-opacity" href="/gallery.html">Gallery</a>
+<a class="text-[#0B3A5B] dark:text-slate-300 hover:text-[#F26A1F] transition-colors hover:opacity-90" href="/gallery.html">Reviews</a>
+<a class="text-[#0B3A5B] dark:text-slate-300 hover:text-[#F26A1F] transition-colors hover:opacity-90" href="/about.html">About</a>
+<a class="text-[#0B3A5B] dark:text-slate-300 hover:text-[#F26A1F] transition-colors hover:opacity-90" href="/free-estimate.html">Contact</a>
+</div>
+<!-- Actions -->
+<div class="hidden md:flex items-center space-x-4">
+<a class="font-headline font-bold text-primary flex items-center gap-2 hover:text-accent transition-colors" href="tel:4165550199">
+<span class="material-symbols-outlined">call</span>
+                    (416) 555-0199
+                </a>
+<a class="bg-accent hover:bg-accent-hover text-white font-headline font-bold py-3 px-6 rounded-lg shadow-sm transition-all active:scale-95 duration-150 flex items-center gap-2" href="/free-estimate.html">
+                    Get a Free Estimate
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<!-- Mobile Menu Button -->
+<button class="md:hidden text-primary p-2 focus:outline-none">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</nav>
+<main>
+<!-- Breadcrumb -->
+<div class="bg-white border-b border-gray-200">
+<div class="max-w-7xl mx-auto px-6 py-3 flex items-center gap-2 text-sm text-slate font-label">
+<a class="hover:text-primary transition-colors" href="/">Home</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-primary font-semibold">Gallery</span>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="bg-white py-16 md:py-24 overflow-hidden relative">
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<div class="inline-block bg-cloud border border-gray-200 rounded-full px-4 py-1.5 mb-6 flex items-center gap-2 text-primary font-label text-sm uppercase tracking-wider font-semibold w-max">
+<span class="w-2 h-2 rounded-full bg-trust"></span>
+                        5,200+ Toronto Roofs and Counting
+                    </div>
+<h1 class="font-headline font-extrabold text-4xl md:text-5xl lg:text-6xl text-primary leading-tight mb-6 tracking-tight">
+                        Our Work Speaks<br/><span class="text-accent">For Itself.</span>
+</h1>
+<p class="font-body text-lg text-slate mb-8 max-w-lg leading-relaxed">
+                        Browse real before/after photos from completed Tropicana roofing projects across Toronto and the GTA. See the difference professional craftsmanship makes.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="bg-accent hover:bg-accent-hover text-white font-headline font-bold py-4 px-8 rounded-lg shadow-sm transition-colors text-center inline-flex items-center justify-center gap-2" href="/free-estimate.html">
+                            Get Free Estimate
+                            <span class="material-symbols-outlined">description</span>
+</a>
+<a class="border-2 border-primary text-primary hover:bg-cloud font-headline font-bold py-4 px-8 rounded-lg transition-colors text-center inline-flex items-center justify-center gap-2" href="#gallery-grid">
+                            Filter by Service
+                            <span class="material-symbols-outlined">arrow_downward</span>
+</a>
+</div>
+</div>
+<div class="relative h-[400px] lg:h-[500px]">
+<div class="absolute right-0 top-0 w-3/4 h-3/4 rounded-2xl overflow-hidden shadow-xl z-20 border-4 border-white transform rotate-2 hover:rotate-0 transition-transform duration-500">
+<img alt="Roofing crew working on a residential roof in Toronto with CN Tower in background" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uiCNRlKotFEwcbz8ujh-ikqVwNpVBgYK8TdmlTPtU1rK9B2Biq9KbBYdoRpzaW8jaMTMVcfdjrhmhDmjiSMSKNZ7O9UD4kHDGXSavS0Q6_3N9t45MtgRqOr1-FlhYmJQoHnWPyxFlWLceq_m6T-ohoS4a6K9celHq0dH4BrLrcirec8yXMtwDF3YNjlRg3UWO6QFab9b1ed7DDYgUfbJzZ8SZvNAVYrUcu-dkQz9iE6Yt1P7rMAR8Pz90k"/>
+</div>
+<div class="absolute left-0 bottom-10 w-2/3 h-2/3 rounded-2xl overflow-hidden shadow-lg z-10 border-4 border-white transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+<img alt="New architectural shingle roof on a brick bungalow" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ujvKweUi6QudUluv_Ghe9kdffkbBN37RHM91b1wGByVC-UQlwIJG4hvk1LvjKVXlttRcIjVmDTpIRLYCNEljZl9fqmv4Ooy4Pc84iS33tzoS6mzzX1wfzc-MVI1IU8SENfVVCxPqDloTGjWZoat1V6J-KiggQllfsr1QDeyznt61aixyc8wmW6SMjOXJxoXT4RosaJi6DgVDnU4yLHuBu-GOkfhrU0JX0-z9lItc69MT1BCsUL2STJ4Lhg"/>
+</div>
+<div class="absolute right-10 bottom-0 w-1/2 h-1/2 rounded-2xl overflow-hidden shadow-md z-30 border-4 border-white transform rotate-6 hover:rotate-0 transition-transform duration-500">
+<img alt="Aerial view of newly installed asphalt shingle roofs in a suburban neighborhood" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhnsNxCqnyMJ_Hp9B_W_ibXeZok8No1RWjZ2P-N2LhFgFdczqVxv-coXDjB27G9pr3090IrliS2kNJSjmfMxWjUGlvZ5vWDb5J_9asKHxA9dA_hg-LQR9VAfsByRRrXOiwSk1R7xiZzfcbQlf4qpfXD7Wz5CB9yIjlv97jAV7yxDUwLujRUGIX-bd24JjY9gDw0PEaa0lAtPRwnIcDGjULn5EmQy9TX6aAqlfp9HcK_hYCaQireTFkejTU"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Filter Bar -->
+<section class="sticky top-20 z-40 bg-white border-b border-gray-200 shadow-sm py-4" id="gallery-grid">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex flex-wrap gap-2 md:gap-4 items-center">
+<span class="font-label text-sm font-semibold text-slate uppercase tracking-wider mr-2 hidden md:block">Filter:</span>
+<select class="bg-cloud border-gray-300 text-body text-sm rounded-md focus:ring-accent focus:border-accent font-body py-2 pl-3 pr-8">
+<option>All Services</option>
+<option>Asphalt Shingle</option>
+<option>Flat Roof</option>
+<option>Metal Roof</option>
+</select>
+<select class="bg-cloud border-gray-300 text-body text-sm rounded-md focus:ring-accent focus:border-accent font-body py-2 pl-3 pr-8">
+<option>All Neighborhoods</option>
+<option>Scarborough</option>
+<option>North York</option>
+<option>Etobicoke</option>
+</select>
+<select class="bg-cloud border-gray-300 text-body text-sm rounded-md focus:ring-accent focus:border-accent font-body py-2 pl-3 pr-8">
+<option>All Property Types</option>
+<option>Residential</option>
+<option>Commercial</option>
+</select>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-sm text-slate font-body">Showing <strong class="text-primary">24</strong> of 240+ projects</span>
+<div class="flex bg-cloud rounded-lg p-1 border border-gray-200">
+<button aria-label="Grid view" class="p-1.5 bg-white shadow-sm rounded text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+</button>
+<button aria-label="List view" class="p-1.5 text-slate hover:text-primary rounded flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[20px]">view_list</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Project -->
+<section class="py-16 bg-cloud">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex items-center gap-2 mb-8">
+<span class="material-symbols-outlined text-accent">star</span>
+<h2 class="font-headline font-bold text-2xl text-primary uppercase tracking-tight">Featured Project</h2>
+</div>
+<div class="bg-white rounded-xl shadow-card overflow-hidden border border-gray-200 flex flex-col lg:flex-row">
+<!-- Before/After Slider Placeholder -->
+<div class="lg:w-3/5 relative min-h-[400px] bg-gray-100 group">
+<div class="absolute inset-0 w-full h-full" data-alt="A beautifully restored residential brick bungalow with a brand new, dark grey asphalt shingle roof, sitting on a well-manicured lawn with a 'For Sale' sign in front, captured in bright daylight." style="background-image: url('https://lh3.googleusercontent.com/aida/ADBb0ujvKweUi6QudUluv_Ghe9kdffkbBN37RHM91b1wGByVC-UQlwIJG4hvk1LvjKVXlttRcIjVmDTpIRLYCNEljZl9fqmv4Ooy4Pc84iS33tzoS6mzzX1wfzc-MVI1IU8SENfVVCxPqDloTGjWZoat1V6J-KiggQllfsr1QDeyznt61aixyc8wmW6SMjOXJxoXT4RosaJi6DgVDnU4yLHuBu-GOkfhrU0JX0-z9lItc69MT1BCsUL2STJ4Lhg'); background-size: cover; background-position: center;"></div>
+<div class="absolute top-4 left-4 bg-primary text-white font-label text-xs uppercase font-bold py-1 px-3 rounded shadow-sm z-10">After</div>
+</div>
+<!-- Details -->
+<div class="lg:w-2/5 p-8 lg:p-10 flex flex-col">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-cloud text-primary font-label text-xs font-semibold px-2.5 py-1 rounded border border-gray-200">Asphalt Shingle</span>
+<span class="bg-cloud text-primary font-label text-xs font-semibold px-2.5 py-1 rounded border border-gray-200">Scarborough</span>
+<span class="bg-cloud text-primary font-label text-xs font-semibold px-2.5 py-1 rounded border border-gray-200">GAF Timberline HDZ</span>
+</div>
+<h3 class="font-headline font-bold text-2xl text-primary mb-2 leading-tight">Full Architectural Shingle Replacement — Scarborough Bungalow</h3>
+<p class="text-sm text-slate font-body mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+                            Completed October 2024
+                        </p>
+<div class="space-y-4 text-body font-body text-base flex-grow">
+<p>This classic Scarborough bungalow needed a complete tear-off due to extensive curling and granule loss on the 20-year-old original shingles.</p>
+<p>Our crew stripped the roof down to the deck, replaced 3 sheets of rotted plywood near the eaves, and installed a full GAF lifetime roofing system.</p>
+<div class="bg-cloud p-4 rounded-lg border-l-4 border-accent italic text-slate mt-4">
+                                "The Tropicana crew was fast, polite, and cleaned up every single nail. The new roof completely changed the look of our home before listing it."
+                                <span class="block mt-2 font-semibold not-italic text-primary text-sm">— Mark T., Homeowner</span>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-100">
+<a class="w-full bg-primary hover:bg-primary-hover text-white font-headline font-bold py-3 px-6 rounded-lg shadow-sm transition-colors text-center inline-flex items-center justify-center gap-2" href="/free-estimate.html">
+                                Get a Quote for a Similar Project
+                                <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="bg-gradient-to-r from-accent to-primary py-16 relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<h2 class="font-headline font-extrabold text-3xl md:text-4xl text-white mb-4">Ready to Add Your Home to Our Gallery?</h2>
+<p class="font-body text-lg text-white/90 mb-8 max-w-2xl mx-auto">Contact Toronto's most trusted roofing experts today for a comprehensive inspection and transparent estimate.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<a class="bg-white text-primary hover:bg-gray-50 font-headline font-bold py-4 px-8 rounded-lg shadow-lg transition-colors flex items-center justify-center gap-2" href="/free-estimate.html">
+                        Get Free Estimate
+                        <span class="material-symbols-outlined text-accent">edit_document</span>
+</a>
+<a class="bg-transparent border-2 border-white text-white hover:bg-white/10 font-headline font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center gap-2" href="tel:4165550199">
+                        Call (416) 555-0199
+                        <span class="material-symbols-outlined">call</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer component -->
+<footer class="bg-[#0B3A5B] dark:bg-slate-950 w-full flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 py-16 max-w-7xl mx-auto">
+<!-- Brand & Copyright -->
+<div class="col-span-1 md:col-span-1 flex flex-col justify-between">
+<div>
+<a class="font-headline text-xl font-bold text-white flex items-center gap-2 mb-4" href="#">
+<span class="material-symbols-outlined filled text-accent">roofing</span>
+                        Tropicana Roofing Inc
+                    </a>
+<p class="font-body text-sm text-slate-300 opacity-100 hover:opacity-80">
+                        © 2024 Tropicana Roofing Inc. All rights reserved. 215 Markham Road, Toronto, ON.
+                    </p>
+</div>
+</div>
+<!-- Links Column 1 -->
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-lg text-white mb-4">Services</h4>
+<ul class="space-y-2 font-body text-sm">
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/services.html">Residential Roofing</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/services.html">Commercial Flat Roofs</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/storm-damage.html">Emergency Repair</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/storm-damage.html">Storm Damage</a></li>
+</ul>
+</div>
+<!-- Links Column 2 -->
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-lg text-white mb-4">Service Areas</h4>
+<ul class="space-y-2 font-body text-sm">
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/scarborough.html">Scarborough</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/scarborough.html">North York</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/scarborough.html">Etobicoke</a></li>
+<li><a class="text-slate-300 hover:text-white transition-colors hover:text-[#F26A1F]" href="/scarborough.html">East York</a></li>
+</ul>
+</div>
+<!-- Contact -->
+<div class="col-span-1">
+<h4 class="font-headline font-bold text-lg text-white mb-4">Contact Us</h4>
+<ul class="space-y-3 font-body text-sm text-slate-300">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-accent text-[18px]">location_on</span>
+<span>215 Markham Road<br/>Toronto, ON M1J 3C4</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent text-[18px]">call</span>
+<a class="hover:text-white transition-colors" href="tel:4165550199">(416) 555-0199</a>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent text-[18px]">mail</span>
+<a class="hover:text-white transition-colors" href="mailto:info@tropicanaroofing.ca">info@tropicanaroofing.ca</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>
